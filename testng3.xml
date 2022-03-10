@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Tax Department" parallel="tests">
+<listeners>
+<listener class-name="Academy.Listeners"/>
+</listeners>
+   <test name="Regression Testing"> 
+   		<groups>
+    		<run>
+    		 	<include name="Smoke"/>
+    		</run>    	
+    	</groups>
+    <classes>  	
+      	<class name="Academy.WindowHandles"/>
+      	<class name="Academy.JavaStreams"/>
+      	<class name="Academy.OtherControls"/>
+     </classes>
+  	</test>
+</suite>
