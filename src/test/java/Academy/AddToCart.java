@@ -76,6 +76,7 @@ public class AddToCart extends base{
 		Assert.assertTrue(ac.getPromoInfo().isDisplayed());
 		
 		Thread.sleep(3000);
+		System.out.println("This is for GIT Fifth message");
 				
 	}	
 		
