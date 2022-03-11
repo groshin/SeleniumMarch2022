@@ -50,6 +50,7 @@ public class ActionsFramesTest extends base{
 		Thread.sleep(1000);
 		System.out.println("This is for GIT First message");
 		System.out.println("This is for GIT Second message");
+		System.out.println("This is for GIT Third message");
 				
 	}	
 	
